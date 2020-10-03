@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`arr utils should reorder throw an error for negative number 1`] = `"Indexes should be zero or positive number less than array length. Incoming data: max index 4, index1: -1, index2: 0"`;
+
+exports[`arr utils should reorder throw an error for negative number 2`] = `"Indexes should be zero or positive number less than array length. Incoming data: max index 4, index1: 0, index2: -1"`;
+
+exports[`arr utils should reorder throw ean error for larger then max index arguments 1`] = `"Indexes should be zero or positive number less than array length. Incoming data: max index 4, index1: 5, index2: 0"`;
+
+exports[`arr utils should reorder throw ean error for larger then max index arguments 2`] = `"Indexes should be zero or positive number less than array length. Incoming data: max index 4, index1: 0, index2: 5"`;
+
+exports[`arr utils should swap throw an error for negative number 1`] = `"Indexes should be zero or positive number less than array length. Incoming data: max index 4, index1: -1, index2: 0"`;
+
+exports[`arr utils should swap throw an error for negative number 2`] = `"Indexes should be zero or positive number less than array length. Incoming data: max index 4, index1: 0, index2: -1"`;
+
+exports[`arr utils should swap throw ean error for larger then max index arguments 1`] = `"Indexes should be zero or positive number less than array length. Incoming data: max index 4, index1: 5, index2: 0"`;
+
+exports[`arr utils should swap throw ean error for larger then max index arguments 2`] = `"Indexes should be zero or positive number less than array length. Incoming data: max index 4, index1: 0, index2: 5"`;

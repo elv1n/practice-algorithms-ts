@@ -1,0 +1,31 @@
+{
+  "name": "practice-algorithms-ts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Elvin Dzhavadov",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest --watchAll",
+    "benchmark": "ts-node benchmark"
+  },
+  "dependencies": {
+    "benchmark": "^2.1.4",
+    "fs-extra": "^9.0.1"
+  },
+  "devDependencies": {
+    "@types/benchmark": "^1.0.33",
+    "eslint-config-elv1n-react": "^0.9.1",
+    "jest": "^26.4.2",
+    "ts-jest": "^26.4.1",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.3"
+  },
+  "eslintConfig": {
+    "extends": [
+      "elv1n-react"
+    ],
+    "rules": {
+      "no-param-reassign": "off"
+    }
+  }
+}
